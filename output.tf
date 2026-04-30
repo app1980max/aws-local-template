@@ -18,3 +18,5 @@ output "kubeconfig_note" {
   description = "Access the K3s cluster by SSHing into the instance and using this path"
   value       = "Run: ssh -i ~/.ssh/id_rsa ubuntu@${aws_instance.instance.public_ip}"
 }
+
+
